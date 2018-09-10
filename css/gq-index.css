@@ -1,0 +1,181 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: PingFangSC-Semibold, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 58px;
+    background: #4381e6;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .wpc_Left {
+    width: 500px;
+    display: flex;
+}
+
+header .wpc_Left .wpc_logo img {
+    width: 46px;
+    height: 46px;
+    margin-right: 10px;
+    margin-left: 50px;
+}
+
+header .wpc_Left .wpc_name p {
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 58px;
+}
+
+header .wpc_Right {
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+
+header .wpc_Right h3 {
+    font-size: 14px;
+    color: rgba(255, 255, 255, .5);
+    margin-left: 6px;
+}
+
+header .wpc_Right a {
+    font-size: 16px;
+    font-weight: 800;
+    color: rgba(255, 255, 255, .5);
+    margin-right: 13px;
+    margin-left: 13px;
+    text-decoration: none;
+    -webkit-transform: rotate(90deg);
+}
+
+header .wpc_Right .wpc_head {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: white;
+
+}
+
+main {
+    width: 100%;
+    height: 943px;
+    display: flex;
+}
+
+main .wpc_list {
+    width: 180px;
+    height: 660px;
+    background: #ffffff;
+}
+
+main .wpc_list ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 0 15px rgba(218, 218, 218, .6);
+}
+
+main .wpc_list ul li {
+    height: 40px;
+    width: 100%;
+    font-size: 14px;
+    color: rgba(0, 0, 0, .6);
+    line-height: 40px;
+    text-align: center;
+    border-top: 1px solid rgba(236, 236, 236, .6);
+    border-bottom: 1px solid rgba(236, 236, 236, .6);
+}
+.wpc_fire{
+    background: #f1f4f9;
+    border-right: 2px solid #4381e6;
+}
+main .wpc_nav {
+    width: -webkit-calc(100% - 180px);
+    /*height: 100%;*/
+    /*width:1212px;*/
+    height: 943px;
+    background: #f1f4f9;
+}
+main .wpc_nav .gq_container{
+    padding: 15px;
+}
+main .wpc_nav ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+main .wpc_nav ul .gq_list{
+    display: block;
+    width: 32.7%;
+    height: 213px;
+    background: #fff;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding-top:20px;
+}
+main .wpc_nav .gq_list .gq_title{
+    height: 20px;
+    line-height: 21px;
+    margin-bottom: 30px;
+}
+main .wpc_nav .gq_list h4{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: rgba(0,0,0,0.6);
+    line-height: 21px;
+    margin: 0 auto;
+    text-align: center;
+}
+main .wpc_nav .gq_list h4 span{
+    margin-top:5px;
+    width: 2px;
+    height: 12px;
+    font-size: 10px;
+    background: linear-gradient(to top,#30c2fb,#6787ff);
+    line-height: 20px;
+    display: block;
+}
+main .wpc_nav .gq_list p{
+    width: 190px;
+    height: 92px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    color: rgba(0,0,0,0.4);
+}
+main .wpc_nav .gq_list p span{
+    font-size: 18px;
+    color: #4381e6;
+}
+main .wpc_nav .gq_list button{
+    width: 111px;
+    height: 29px;
+    border-radius: 4px;
+    background: #4381e6;
+    border:none;
+    color: #fff;
+    margin:0 auto;
+    display: block;
+    outline: none;
+}
+footer {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+footer p {
+    font-size: 12px;
+    color: rgba(0, 0, 0, .4);
+}
