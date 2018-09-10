@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/fxf_register.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="fxf_left">
+            <div class="fxf_box">
+                <h1>WELCOME TO</h1>
+                <p>大数据实验平台</p>
+                <div class="fxf_dot">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="fxf_right">
+            <img src="img/fxf_2.png" alt="" class="fxf_logo">
+            <div class="fxf_list">
+                <img src="img/fxf_1_06.png" alt="" class="fxf_list_image1">
+                <input type="text" placeholder="请输入用户名">
+            </div>
+            <div class="fxf_list">
+                <img src="img/fxf_1_09.png" alt="" class="fxf_list_image2">
+                <input type="text" placeholder="请输入电子邮箱">
+            </div>
+            <div class="fxf_list">
+                <img src="img/fxf_1_12.png" alt="" class="fxf_list_image3">
+                <input type="password" placeholder="请输入密码">
+            </div>
+            <div class="fxf_list">
+                <img src="img/fxf_1_12.png" alt="" class="fxf_list_image3">
+                <input type="password" placeholder="请确认密码">
+            </div>
+            <div class="fxf_last">
+                <div class="fxf_list">
+                    <img src="img/fxf_1_18.png" alt="" class="fxf_list_image4">
+                    <input type="text" placeholder="请输入验证码">
+                </div>
+                <img src="img/fxf_3.png" alt="" class="fxf_last_image5">
+            </div>
+            <button>注册</button>
+            <div class="fxf_shadow"></div>
+            <a href="">返回登录</a>
+        </div>
+    </main>
+    <div class="fxf_alert">
+        <img src="img/fxf_!.png" alt="">
+        <p>您复制的密码已发送到您的邮箱</p>
+        <span>x</span>
+    </div>
+</body>
+</html>
+<script>
+    let fxf_btn=document.querySelector("button");
+    let fxf_shadow=document.querySelector("main .fxf_right .fxf_shadow");
+    let fxf_alerts=document.querySelector(".fxf_alert");
+    let fxf_close=document.querySelector(".fxf_alert span")
+    fxf_btn.onmouseenter=function () {
+        fxf_shadow.style.display="block";
+    }
+    fxf_btn.onmouseleave=function () {
+        fxf_shadow.style.display="none";
+    }
+    fxf_btn.onclick=function () {
+        fxf_alerts.style.display="flex";
+    }
+    fxf_close.onclick=function () {
+        fxf_alerts.style.display="none";
+    }
+</script>
