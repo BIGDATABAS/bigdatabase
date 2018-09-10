@@ -1,0 +1,223 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: PingFangSC-Semibold, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 668px;
+    background-image: url("../img/fxf_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+main {
+    width: 760px;
+    height: 510px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+main .fxf_left{
+    width: 400px;
+    height: 510px;
+    background-image: url("../img/fxf_1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+main .fxf_box{
+    position: absolute;
+    left: 49px;
+    top: 58px;
+}
+main .fxf_box h1 {
+    font-size: 18px;
+    color: #ffffff;
+    font-style: italic;
+    font-family:"HelveticaNeueLT pro73";
+}
+
+main .fxf_box p {
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "方正综艺简体";
+}
+
+main .fxf_box .fxf_dot ul {
+    width: 30px;
+    height: 6px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+main .fxf_box .fxf_dot ul li {
+    width: 6px;
+    height: 6px;
+    background: #ffffff;
+    border-radius: 50%;
+}
+
+main .fxf_box .fxf_dot ul li:nth-child(2) {
+    opacity: .7;
+}
+
+main .fxf_box .fxf_dot ul li:nth-child(3) {
+    opacity: .5;
+}
+main .fxf_right {
+    width: 360px;
+    height: 480px;
+    background-image: url("../img/fxf_1_03.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+main .fxf_right .fxf_logo{
+    width: 93px;
+    height: 93px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+main .fxf_right .fxf_list{
+    width: 259px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #4381e6;
+}
+main .fxf_right .fxf_list .fxf_list_image1{
+    width: 16px;
+    height: 18px;
+}
+main .fxf_right .fxf_list .fxf_list_image2{
+    width: 15px;
+    height: 12px;
+}
+main .fxf_right .fxf_list .fxf_list_image3{
+    width: 15px;
+    height: 18px;
+}
+main .fxf_right .fxf_list .fxf_list_image4{
+    width: 14px;
+    height: 18px;
+}
+main .fxf_right .fxf_last .fxf_last_image5{
+    width: 102px;
+    height: 30px;
+    margin-left:15px ;
+}
+main .fxf_right .fxf_list input{
+    border-style: none;
+    outline: none;
+    margin-left: 25px;
+}
+main .fxf_right .fxf_last input{
+    border-style: none;
+    outline: none;
+    margin-left: 25px;
+    width: 102px;
+}
+main .fxf_right .fxf_list input::-webkit-input-placeholder {
+    color: rgba(67,129,230,0.4);
+    font-size: 14px;
+    font-family: "苹方";
+    font-weight: bolder;
+}
+main .fxf_right .fxf_last {
+    display: flex;
+    flex-direction: row;
+}
+main .fxf_right .fxf_last .fxf_list{
+    width: 142px;
+}
+button{
+    width: 242px;
+    height: 32px;
+    background: url("../img/fxf_btn.png");
+    border-style: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 14px;
+    color: white;
+    font-family: "苹方";
+    font-weight: bolder;
+    position: absolute;
+    bottom: 74px;
+    z-index: 3;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+main .fxf_right .fxf_shadow{
+    width: 266px;
+    height: 56px;
+    background: url("../img/fxf_shadow.png") center;
+    border-style: none;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 55px;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    opacity: 0.5;
+    display: none;
+}
+main .fxf_right a{
+    font-size: 14px;
+    font-family: "苹方";
+    font-weight: bolder;
+    color: rgba(67,129,230,0.7);
+    margin-top: 80px;
+    text-decoration: none;
+}
+.fxf_alert{
+    width: 454px;
+    height: 220px;
+    background: white;
+    box-shadow: 0 0 0 1000px rgba(0,0,0,0.8);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 99;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.fxf_alert p {
+    font-size: 14px;
+    font-family: "苹方";
+    font-weight: bolder;
+    margin-left: 6px;
+    color: rgba(0,0,0,0.4);
+}
+.fxf_alert span{
+    font-size: 14px;
+    font-family: "苹方";
+    font-weight: bolder;
+    color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}
