@@ -2,7 +2,7 @@
 * @Author: ZX
 * @Date:   2018-09-08 10:55:37
 * @Last Modified by:   ZX
-* @Last Modified time: 2018-09-09 10:27:30
+* @Last Modified time: 2018-09-11 00:09:59
 */
 window.onload=function(){
 	let ZX_add=document.querySelector(".ZX_add");
@@ -59,7 +59,7 @@ window.onload=function(){
             }
             lis2[i].classList.add("active");
             let data=lis2[i].innerText;
-            word1.value=data;
+            word2.value=data;
             // console.log(word1.value);
             
 		}
@@ -67,6 +67,8 @@ window.onload=function(){
 	
 
 	let lis3=document.querySelectorAll(".ZX_lis3");
+	console.log(lis3);
+
 	let word3=document.querySelector(".ZX_word3");
 	lis3[0].classList.add("active");
 
@@ -82,6 +84,8 @@ window.onload=function(){
             
 		}
 	}
+
+
 
 
 	let ZX_change=document.querySelector(".ZX_change");
@@ -100,3 +104,5 @@ window.onload=function(){
 
 
 }
+
+
