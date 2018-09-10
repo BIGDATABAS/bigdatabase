@@ -1,0 +1,298 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "苹方","San Francisco";
+}
+html,body{
+	background: #999;
+}
+
+/* 上边块开始 */
+.wqq_top{
+	width: 1156px;
+	height: 112px;
+	background: #fff;
+	margin-bottom: 12px;
+	border-radius: 4px;
+	position: relative;
+	padding-left: 30px;
+	padding-top: 24px;
+}
+.wqq_top>h4{
+	color: rgb(0, 0, 0,0.6);
+	font-size: 14px;
+	letter-spacing: 2px;
+	margin-left: 10px;
+	line-height: 14px;
+	margin-bottom: 14px;
+	margin-bottom: 22px;
+}
+.wqq_top>h4:before{
+	display: block;
+	content: "";
+	width: 2px;
+	height: 11px;
+	background-image: linear-gradient(to bottom,#6787ff,#30c2fb);
+	position: absolute;
+	left: 30px;
+	top: 26px;
+}
+.wqq_top .wqq_choose{
+	width: 100%;
+	height: 29px;
+	/* background: red; */
+	display: flex;
+	justify-content: start;
+}
+.wqq_top .wqq_label{
+	height: 29px;
+	line-height: 29px;
+	text-align: center;
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: rgba(0, 0, 0, 0.6);
+	margin-right: 10px;
+}
+.wqq_top .wqq_info{
+	height: 29px;
+	width: 88px;
+	border: 1px solid #f4f4f4;
+	line-height: 29px;
+	text-align: center;
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: rgba(0, 0, 0, 0.6);
+	margin-right: 10px;
+	border-radius: 4px;
+	padding: 0 8px;
+	margin-right: 20px;
+	position: relative;
+}
+.wqq_top .wqq_choose_left{
+	display: flex;
+	justify-content: start;
+	float: left;
+}
+.wqq_top .wqq_info span{
+	margin-right: 30px;
+
+}
+.wqq_top .wqq_info .wqq_choose{
+	width: 5px;
+	height: 5px;
+	position: absolute;
+	right: 8px;
+	top: 12px;
+}
+.wqq_top .wqq_info .wqq_option{
+	width: 88px;
+	height: 90px;
+	border-radius: 4px;
+	background: #fff;
+	box-shadow: 0 4px 13px 2px rgba(53, 60, 78, 0.1);
+	position: absolute;
+	right: -9px;
+	top: 17px;
+	display: none;
+
+}
+.wqq_top .wqq_info .wqq_option p{
+	display: block;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: rgba(0, 0, 0, 0.6);
+	cursor: pointer;
+	/* background: #fff; */
+}
+
+.wqq_active{
+	background: #4381e6;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.wqq_top .wqq_date{
+	height: 29px;
+	width: 78px;
+	border: 1px solid #f4f4f4;
+	line-height: 29px;
+	text-align: center;
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: rgba(0, 0, 0, 0.6);
+	margin-right: 10px;
+	border-radius: 4px;
+	padding: 0 8px;
+	margin-right: 20px;
+	position: relative;
+}
+.wqq_top .wqq_search{
+	width: 111px;
+	height: 29px;
+	background: #4381e6;
+	line-height: 29px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	letter-spacing: 1px;
+	border: none;
+	outline: none;
+	border-radius: 4px;
+	margin-left: 272px;
+	cursor: pointer;
+}
+
+/* 上边块结束 */
+
+
+/* 下边块开始 */
+.wqq_bottom{
+	width: 1156px;
+	height: 340px;
+	background: #fff;
+	border-radius: 4px;
+	padding-top: 33px;
+	padding-left: 30px;
+}
+.wqq_bottom table{
+	text-align: center;
+	border-top: 1px solid #f4f4f4;
+	border-left: 1px solid #f4f4f4;
+	border-radius: 4px;
+	margin-bottom: 28px;
+
+}
+.wqq_bottom td{
+	height: 54px;
+	border-bottom: 1px solid #f4f4f4;
+	border-right: 1px solid #f4f4f4;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: rgba(0, 0, 0, 0.4);
+}
+.wqq_bottom .wqq_first{
+	color: rgba(0, 0, 0, 0.6);
+}
+.wqq_bottom button{
+	width: 60px;
+	height: 29px;
+	background: #4381e6;
+	outline: none;
+	border: none;
+	border-radius: 4px;
+	color: #fff;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+.wqq_bottom .wqq_one{
+	width: 77px;
+	line-height: 54px;
+	text-align: center;
+}
+.wqq_bottom .wqq_two{
+	width: 89px;
+	line-height: 54px;
+	text-align: center;
+}
+.wqq_bottom .wqq_three{
+	width: 95px;
+	line-height: 54px;
+	text-align: center;
+}
+.wqq_bottom .wqq_four{
+	width: 95px;
+	line-height: 54px;
+	text-align: center;
+}
+.wqq_bottom .wqq_five{
+	width: 71px;
+	line-height: 54px;
+	text-align: center;
+}
+.wqq_bottom .wqq_six{
+	width: 71px;
+	line-height: 54px;
+	text-align: center;
+}
+.wqq_bottom .wqq_seven{
+	width: 71px;
+	line-height: 54px;
+	text-align: center;
+}
+.wqq_bottom .wqq_eight{
+	width: 70px;
+	line-height: 54px;
+	text-align: center;
+}
+.wqq_bottom .wqq_nine{
+	width: 71px;
+	line-height: 54px;
+	text-align: center;
+}
+.wqq_bottom .wqq_ten{
+	width: 131px;
+	line-height: 54px;
+	text-align: center;
+}
+.wqq_bottom .wqq_eleven{
+	width: 102px;
+	line-height: 54px;
+	text-align: center;
+}
+.wqq_bottom .wqq_twelve{
+	width: 71px;
+	line-height: 54px;
+	text-align: center;
+}
+.wqq_bottom .wqq_thirteen{
+	width: 70px;
+	line-height: 54px;
+	text-align: center;
+}
+
+
+/* 分页开始 */
+.wqq_bottom .wqq_paging{
+	width: 524px;
+	height: 30px;
+	/* background: red; */
+	margin: 28px auto 0;
+	display: flex;
+	justify-content: space-around;
+}
+.wqq_bottom .wqq_paging .wqq_prev{
+	width: 98px;
+	height: 29px;
+	border: 1px solid #f4f4f4;
+	border-radius: 4px;
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: 2px;
+	color: rgba(0, 0, 0, 0.6);
+	text-align: center;
+	line-height: 29px;
+}
+.wqq_bottom .wqq_paging .wqq_page{
+	width: 29px;
+	color: rgba(0, 0, 0, 0.4);
+}
+.wqq_bottom .wqq_paging .wqq_page1{
+	background:#4381e6; 
+	color: #fff;
+}
+.wqq_bottom .wqq_paging .wqq_page4{
+	letter-spacing: 0;
+}
+.wqq_bottom .wqq_paging .wqq_last{
+	width: 84px;
+}
+
+/* 分页结束 */
+
+/* 下边块结束 */
