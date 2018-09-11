@@ -56,7 +56,7 @@
                     </div>
                     <input type="text">
                     <button>搜索学生</button>
-                    <button class="twoth">新建学生</button>
+                    <a href="lyk_accounts.html"><button class="twoth">新建学生</button></a>
                     <button class="threeth">批量导入</button>
                 </div>
             </div>
@@ -182,6 +182,6 @@
 </html>
 <script>
     let list=document.querySelectorAll("main .wpc_list ul li");
-
+    list[3].classList.add("wpc_fire");
     fire(list);
 </script>

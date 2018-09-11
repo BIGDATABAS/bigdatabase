@@ -1,7 +1,7 @@
 window.onload=function(){
 	// 订单管理
 	let pic1=document.querySelectorAll(".wqq_choose img");
-	let list=document.querySelectorAll(".wqq_option");
+	let lists=document.querySelectorAll(".wqq_option");
 	let lis1=document.querySelectorAll(".wqq_op_one");
 	let lis2=document.querySelectorAll(".wqq_op_two");
 	let lis3=document.querySelectorAll(".wqq_op_three");
@@ -21,10 +21,10 @@ window.onload=function(){
 
 	for(let i=0;i<pic1.length;i++){
 		pic1[i].onclick=function(){
-			list[i].style.display="block";
+			lists[i].style.display="block";
 		}
 		list[i].onmouseleave=function(){
-			list[i].style.display="none";
+			lists[i].style.display="none";
 		}
 	}
 

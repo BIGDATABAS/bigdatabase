@@ -17,6 +17,7 @@ window.onload=function () {
         }
     }
     close.onclick=function () {
-        alerts.style.display="none";
+        location.href="wzj_jiqun.html";
+        // window.close();
     }
 }
