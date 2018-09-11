@@ -2,7 +2,7 @@
 * @Author: ZX
 * @Date:   2018-09-08 10:55:37
 * @Last Modified by:   ZX
-* @Last Modified time: 2018-09-11 00:09:59
+* @Last Modified time: 2018-09-11 09:37:57
 */
 window.onload=function(){
 	let ZX_add=document.querySelector(".ZX_add");
@@ -29,6 +29,10 @@ window.onload=function(){
 	for(let i=0;i<pic1.length;i++){
 		pic1[i].onclick=function(){
 			list1[i].style.display="block";
+			// console.log(list1);
+		}
+		list1[i].onmouseleave=function(){
+			list1[i].style.display="none";
 			// console.log(list1);
 		}
 
