@@ -169,6 +169,7 @@ main .wpc_nav .wzj_right{
     height: 100%;
     display: flex;
     align-items: center;
+
 }
 main .wpc_nav .wzj_right button{
     width: 100%;
@@ -179,6 +180,7 @@ main .wpc_nav .wzj_right button{
     border-radius: 4px;
     font-size: 14px;
     color: #fff;
+    cursor: pointer;
 }
 main .wpc_nav .wzj_right button:hover{
     box-shadow: 0 2px 9px 1px rgba(100, 158, 253, 0.46); 
@@ -303,7 +305,7 @@ main .wpc_nav .wzj_bottom_bom .wzj_bom_r img{
     right: 0;
     margin: auto auto;
     border-radius: 4px;
-    box-shadow: 0px 0px 10000px 10000px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 0px 1000px rgba(0, 0, 0, 0.8);
     display: none;
 }
 .wzj_tankuang .wzj_tan_top{
