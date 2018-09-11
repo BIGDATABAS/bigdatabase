@@ -104,8 +104,9 @@ main .wpc_nav {
 }
 
 main .serve{
-    width:100%;
+    width:1157px;
     height:529px;
+    margin:16px 14px;
     background:#fff;
     display:flex;
     flex-direction: column;
@@ -143,12 +144,67 @@ main .serve .time .price{
 main .serve .time .price h4{
     padding-top:8px;
     font-size: 56px;
-    color:#25cb77;
+    color:#314dfc;
 }
 main .serve .time .price span{
     font-size: 14px;
+    color:#314dfc;
+}
+main .serve .time .price1{
+    width:130px;
+    height:130px;
+    border:1px solid #f4f4f4;
+    border-radius: 4px;
+    text-align: center;
+    margin-left:20px;
+    float:left;
+}
+main .serve .time .price1 h4{
+    padding-top:8px;
+    font-size: 56px;
+    color:#2bacfe;
+}
+main .serve .time .price1 span{
+    font-size: 14px;
+    color:#2bacfe;
+}
+main .serve .time .price2{
+    width:130px;
+    height:130px;
+    border:1px solid #f4f4f4;
+    border-radius: 4px;
+    text-align: center;
+    margin-left:20px;
+    float:left;
+}
+main .serve .time .price2 h4{
+    padding-top:8px;
+    font-size: 56px;
+    color:#26dbb7;
+}
+main .serve .time .price2 span{
+    font-size: 14px;
+    color:#26dbb7;
+}
+main .serve .time .price3{
+    width:130px;
+    height:130px;
+    border:1px solid #f4f4f4;
+    border-radius: 4px;
+    text-align: center;
+    margin-left:20px;
+    float:left;
+}
+main .serve .time .price3 h4{
+    padding-top:8px;
+    font-size: 56px;
     color:#25cb77;
 }
+main .serve .time .price3 span{
+    font-size: 14px;
+    color:#25cb77;
+}
+
 main .serve .date{
     font-size: 14px;
     margin-left:30px;
@@ -233,7 +289,7 @@ main .pri h4{
 }
 main .pri h4 span{
     font-size: 35px;
-    color:#25cb77;
+    color:#4381e6;
 }
 main .pri h5{
     padding-left:214px;
@@ -270,3 +326,156 @@ footer p {
     font-size: 12px;
     color: rgba(0, 0, 0, .4);
 }
+.zgl_fptx{
+    width:581px;
+    height:481px;
+    background: #ffffff;
+    box-shadow: 0 0 0 1600px rgba(0,0,0,0.8);
+    border-radius: 4px;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin: auto;
+    display: none;
+}
+.zgl_fptx .fp_top{
+    width:100%;
+    height:40px;
+    line-height:40px;
+    border-bottom:1px solid #f4f4f4;
+}
+.zgl_fptx .fp_top span{
+    color:#585858;
+    margin-left:20px;
+    float:left;
+}
+.zgl_fptx .fp_top img{
+    float:right;
+    margin-right:20px;
+    width:11px;
+    height:12px;
+    margin-top:14px;
+}
+.zgl_fptx .fp_mid{
+    width:100%;
+    margin-top:30px;
+}
+.zgl_fptx .fp_mid .mid_top{
+    width:100%;
+    height:60px;
+
+
+}
+.zgl_fptx .fp_mid .mid_top .mid_tx{
+    width:40%;
+    height:30px;
+    float:left;
+    line-height:30px;
+    margin-left:48px;
+}
+.zgl_fptx .fp_mid .mid_top .mid_tx span{
+    font-size: 14px;
+    color:#8d8d8d;
+    float: left;
+}
+.zgl_fptx .fp_mid .mid_top .mid_tx p{
+    float:left;
+    font-size: 14px;
+    color:#b8b8b8;
+}
+.zgl_fptx .fp_nav{
+    width:100%;
+    height:30px;
+    line-height: 30px;
+}
+.zgl_fptx .fp_nav span{
+    font-size: 14px;
+    color:#8d8d8d;
+    margin-left:48px;
+    float:left;
+}
+.zgl_fptx .fp_nav .nav_s{
+    width:80px;
+    height:30px;
+    border:1px solid #f4f4f4;
+    float:left;
+    border-radius:4px;
+    margin-left: 15px;
+    text-align: center;
+    line-height: 30px;
+    color:#314dfc;
+}
+.zgl_fptx .fp_nav .fp{
+    color:#2bacfe;
+}
+.zgl_fptx .fp_nav .nav_x{
+    width:109px;
+    height:30px;
+    border:1px solid #f4f4f4;
+    float:left;
+    border-radius:4px;
+    margin-left: 15px;
+    text-align: center;
+    line-height: 30px;
+    color:#26dbb7;
+}
+.zgl_fptx .fp_nav .zh{
+    color:#3ecf82;
+}
+.zgl_fptx .fp_btu{
+    width:100%;
+    margin-top:18px;
+}
+.zgl_fptx .fp_btu .btu_n{
+    width:100%;
+    height:30px;
+    margin-top: 18px;
+}
+.zgl_fptx .fp_btu .btu_n span{
+    font-size: 14px;
+    color:#8d8d8d;
+    line-height: 30px;
+    margin-left: 48px;
+}
+.zgl_fptx .fp_btu .btu_n input{
+    width:420px;
+    height:30px;
+    border-radius:4px;
+    outline: none;
+    border:1px solid #f4f4f4;
+    float:right;
+}
+.zgl_fptx .fp_btu .btu_n:nth-child(1) input{
+    margin-right:4px;
+}
+.zgl_fptx .fp_btu .btu_n:nth-child(2) input{
+    width:388px;
+    margin-right:36px;
+}
+.zgl_fptx .fp_btu .btu_n:nth-child(3) input{
+    width:164px;
+    margin-right:259px;
+}
+.zgl_fptx .fp_btu .btu_n:nth-child(4) input{
+    width:175px;
+    margin-right:248px;
+}
+.zgl_fptx .fp_btu .btu_n:nth-child(5) input{
+    width:175px;
+    margin-right:248px;
+}
+.zgl_fptx .fp_bottom{
+    width:204px;
+    height:30px;
+    color:#fff;
+    text-align: center;
+    line-height: 30px;
+    background: #4381e6;
+    border-radius:4px;
+    margin:0 auto;
+    margin-top:30px;
+}
+
+

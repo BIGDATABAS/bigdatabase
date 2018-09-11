@@ -104,10 +104,10 @@ main .wpc_nav {
 }
 
 main .account{
-    width:100%;
+    width:1157px;
     height:112px;
     background:#fff;
-    margin-bottom:10px;
+    margin:15px 15px 10px 15px;
 }
 main .account .text{
     height:14px;
@@ -170,9 +170,12 @@ main .create .threeth{
     margin-left:4px;
 }
 main .user{
-    width:100%;
+    width:1157px;
+    /*display:flex;*/
+    /*height:385px;*/
     background:#fff;
-
+    margin-left:15px;
+    /*margin-top:10px;*/
 }
 main .user .top{
     width:100%;

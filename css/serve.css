@@ -104,8 +104,9 @@ main .wpc_nav {
 }
 
 main .serve{
-    width:100%;
+    width:1157px;
     height:529px;
+    margin:16px 14px;
     background:#fff;
     display:flex;
     flex-direction: column;

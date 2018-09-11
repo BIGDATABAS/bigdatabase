@@ -104,10 +104,10 @@ main .wpc_nav {
 }
 
 main .account{
-    width:100%;
+    width:1157px;
     height:112px;
     background:#fff;
-    margin-bottom:10px;
+    margin:15px 15px 10px 15px;
 }
 main .account .text{
     height:14px;
@@ -170,9 +170,12 @@ main .create .threeth{
     margin-left:4px;
 }
 main .user{
-    width:100%;
+    width:1157px;
+    /*display:flex;*/
+    /*height:385px;*/
     background:#fff;
-
+    margin-left:15px;
+    /*margin-top:10px;*/
 }
 main .user .top{
     width:100%;
@@ -351,154 +354,3 @@ footer p {
     font-size: 12px;
     color: rgba(0, 0, 0, .4);
 }
-.zgl_tc{
-    width:394px;
-    height:191px;
-    background: #ffffff;
-    box-shadow: 0 0 0 1600px rgba(0,0,0,0.8);
-    border-radius: 4px;
-    position: absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    margin: auto;
-    display: none;
-}
-.zgl_tc .zgl_top{
-    width:100%;
-    height:40px;
-    border-bottom: 1px solid #f4f4f4;
-    line-height:40px;
-}
-.zgl_tc .zgl_top span{
-    text-align: center;
-    font-size: 14px;
-    margin-left:20px;
-    color: #585858;
-    float:left;
-}
-.zgl_tc .zgl_top .del{
-    float:right;
-    margin-right:20px;
-    width:11px;
-    height:12px;
-    margin-top:14px;
-}
-.zgl_tc .zgl_bottom{
-    width:100%;
-    height:151px;
-}
-.zgl_tc .zgl_bottom .zgl_1{
-    width:100%;
-    height:50.5px;
-    line-height:50.5px;
-}
-.zgl_tc .zgl_bottom .one{
-    margin-top: 20px;
-}
-.zgl_tc .zgl_bottom .zgl_1 img{
-    width:10px;
-    height:10px;
-    margin-left:50px;
-    float:left;
-    margin-top:20.25px;
-    margin-right:8px;
-}
-.zgl_tc .zgl_bottom .zgl_1 p{
-    font-size: 14px;
-    color: rgba(0,0,0,0.4);
-    float:left;
-}
-.zgl_tc .zgl_bottom .zgl_1 .an{
-    width:82px;
-    height:30px;
-    background: #4381e6;
-    border-radius: 4px;
-    float: right;
-    font-size: 14px;
-    color:#fff;
-    margin-right:55px;
-    margin-top:10.25px;
-    text-align: center;
-    line-height:30px;
-}
-.zgl_xj{
-    width:323px;
-    height:435px;
-    background: #ffffff;
-    box-shadow: 0 0 0 1600px rgba(0,0,0,0.8);
-    border-radius: 4px;
-    position: absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    margin: auto;
-    display: none;
-}
-.zgl_xj .xj_top{
-    width:100%;
-    height:40px;
-    line-height:40px;
-    border-bottom:1px solid #f4f4f4;
-}
-.zgl_xj .xj_top span{
-    color:#585858;
-    margin-left:20px;
-    flaot:left;
-}
-.zgl_xj .xj_top img{
-    float:right;
-    margin-right:20px;
-    width:11px;
-    height:12px;
-    margin-top:14px;
-}
-.zgl_xj .xj_list{
-    width:100%;
-    margin-top: 26px;
-}
-.zgl_xj .xj_list .xj_son{
-    width:100%;
-    height:30px;
-    margin-top: 10px;
-    line-height:30px;
-}
-.zgl_xj .xj_list .xj_son span{
-    font-size: 14px;
-    margin-left:37px;
-    color:#8d8d8d;
-}
-.zgl_xj .xj_list .xj_son input{
-    width:176px;
-    height:100%;
-    border-radius:4px;
-    outline: none;
-    border:1px solid #f4f4f4;
-    float:right;
-    margin-right:37px;
-}
-.zgl_xj .xj_bottom{
-    width:100%;
-    margin-top: 26px;
-}
-.zgl_xj .xj_bottom .xj_an{
-    width:82px;
-    height:30px;
-    float:left;
-    border-radius:4px;
-    text-align: center;
-    line-height:30px;
-}
-.zgl_xj .xj_bottom .xj_an:nth-child(1){
-    margin-left:71px;
-    background: #4d88e7;
-    color:#fff;
-}
-.zgl_xj .xj_bottom .xj_an:nth-child(2){
-    margin-left:17px;
-    border:1px solid #f4f4f4;
-    color:#b8b8b8;
-}
-
