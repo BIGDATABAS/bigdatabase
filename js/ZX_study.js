@@ -2,7 +2,7 @@
 * @Author: ZX
 * @Date:   2018-09-08 10:55:37
 * @Last Modified by:   ZX
-* @Last Modified time: 2018-09-12 18:12:45
+* @Last Modified time: 2018-09-12 18:30:56
 */
 window.onload=function(){
 	let ZX_add=document.querySelector(".ZX_add");
@@ -175,17 +175,17 @@ window.onload=function(){
 
 
     }
- //    let ZX_Del=document.querySelectorAll(".ZX_Del");
- //    console.log(ZX_Del);
+    let ZX_Del=document.querySelectorAll(".ZX_Del");
+    console.log(ZX_Del);
 
- //    	table.onclick=function(e){
-	// 	let element=e.target;
-	// 	if(element.nodeName=="BUTTON" && element.className=="ZX_Del"){
-	// 		let trs=element.parentNode.parentNode.parentNode;
-	// 		console.log(trs);
-	// 		table.removeChild(trs);
-	// 	}
-	// }
+    	table.onclick=function(e){
+		let element=e.target;
+		if(element.nodeName=="BUTTON" && element.className=="ZX_Del"){
+			let trs=element.parentNode.parentNode.parentNode;
+			console.log(trs);
+			table.removeChild(trs);
+		}
+	}
 
 	
 
