@@ -2,7 +2,7 @@
 * @Author: ZX
 * @Date:   2018-09-08 10:55:37
 * @Last Modified by:   ZX
-* @Last Modified time: 2018-09-11 09:36:25
+* @Last Modified time: 2018-09-12 17:54:37
 */
 *{
 	margin: 0;
@@ -19,10 +19,10 @@ html,body{
 /* 右边盒子 */
 .ZX_right{
 	width:100%;
-	height: 458px;
+	height: auto;
 	background: #fff;
 	border-radius: 4px;
-	padding: 24px 30px 0 30px;
+	padding: 24px 30px 30px 30px;
 	position: relative;
 }
 /* 标题开始*/
@@ -199,6 +199,7 @@ html,body{
 
 /* 添加框/修改框开始*/
 .ZX_data{
+
 	width: 393px;
 	height: 430px;
 	background: #fff;
@@ -262,6 +263,7 @@ html,body{
 	outline: none;
 }
 .ZX_data .ZX_content button{
+	color: #fff;
 	width: 82px;
 	height: 29px;
 	background: #4381e6;
@@ -285,6 +287,13 @@ html,body{
 	letter-spacing:15px;
 }
 .ZX_data .ZX_content .ZX_introduce input{
+	width: 248px;
+	height: 62px;
+	border-radius: 4px;
+	border: 1px solid #f4f4f4;
+	outline: none;
+}
+.ZX_data .ZX_content .ZX_introduce textarea{
 	width: 248px;
 	height: 62px;
 	border-radius: 4px;
