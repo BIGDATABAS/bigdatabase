@@ -228,7 +228,7 @@ html,body{
 	line-height: 55px;
 	letter-spacing:2px;
 }
-.ZX_data .ZX_title .ZX_error{
+.ZX_data .ZX_title .ZX_error,.ZX_error1{
 	font-size: 14px;
 	color: rgba(0, 0, 0, 0.4);
 	position: absolute;
