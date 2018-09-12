@@ -1,16 +1,8 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: "苹方","San Francisco";
-}
-html,body{
-	background: #999;
-}
+
 
 /* 上边块开始 */
 .wqq_top{
-	width: 1156px;
+	width: 100%;
 	height: 112px;
 	background: #fff;
 	margin-bottom: 12px;
@@ -34,6 +26,10 @@ html,body{
 	width: 2px;
 	height: 11px;
 	background-image: linear-gradient(to bottom,#6787ff,#30c2fb);
+	background-image: -webkit-linear-gradient(to bottom,#6787ff,#30c2fb);
+	background-image: -moz-linear-gradient(to bottom,#6787ff,#30c2fb);
+	background-image: -o-linear-gradient(to bottom,#6787ff,#30c2fb);
+	background-image: -ms-linear-gradient(to bottom,#6787ff,#30c2fb);
 	position: absolute;
 	left: 30px;
 	top: 26px;
@@ -151,12 +147,13 @@ html,body{
 
 /* 下边块开始 */
 .wqq_bottom{
-	width: 1156px;
-	height: 340px;
+	width: 100%;
+	height: auto;
 	background: #fff;
 	border-radius: 4px;
 	padding-top: 33px;
 	padding-left: 30px;
+	padding-bottom: 29px;
 }
 .wqq_bottom table{
 	text-align: center;

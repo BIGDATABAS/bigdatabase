@@ -188,7 +188,11 @@ main .wpc_nav .wzj_bottom .wzj_bot_top .wzj_bot_top_t:before{
     height: 11px;
     top:27px; 
     left: 20px;
-    background: linear-gradient(to bottom,#6787ff,#30c2fb);
+    background-image: linear-gradient(to bottom,#6787ff,#30c2fb);
+    background-image: -webkit-linear-gradient(to bottom,#6787ff,#30c2fb);
+    background-image: -o-linear-gradient(to bottom,#6787ff,#30c2fb);
+    background-image: -moz-linear-gradient(to bottom,#6787ff,#30c2fb);
+    background-image: -ms-linear-gradient(to bottom,#6787ff,#30c2fb);
 }
 main .wpc_nav .wzj_bottom .wzj_bot_top .wzj_bot_top_b{
     width: 100%;
@@ -292,7 +296,11 @@ main .wpc_nav .wzj_b_b_t:after{
     height: 11px;
     top:27px; 
     left: 20px;
-    background: linear-gradient(to bottom,#6787ff,#30c2fb);
+    background-image: linear-gradient(to bottom,#6787ff,#30c2fb);
+    background-image: -webkit-linear-gradient(to bottom,#6787ff,#30c2fb);
+    background-image: -o-linear-gradient(to bottom,#6787ff,#30c2fb);
+    background-image: -moz-linear-gradient(to bottom,#6787ff,#30c2fb);
+    background-image: -ms-linear-gradient(to bottom,#6787ff,#30c2fb);
 }
 main .wpc_nav .wzj_b_b{
     width: 100%;

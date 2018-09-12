@@ -198,7 +198,11 @@ main .wpc_nav .wzj_bottom{
 main .wpc_nav .wzj_bottom .wzj_bo_first{
     width: 32%;
     height: 90px;
-    background: linear-gradient(to right,#6787ff,#30c2fb);
+    background-image: linear-gradient(to right,#6787ff,#30c2fb);
+    background-image: -webkit-linear-gradient(to right,#6787ff,#30c2fb);
+    background-image: -moz-linear-gradient(to right,#6787ff,#30c2fb);
+    background-image: -o-linear-gradient(to right,#6787ff,#30c2fb);
+    background-image: -ms-linear-gradient(to right,#6787ff,#30c2fb);
     border-radius: 4px;
     margin-bottom: 11px;
     margin-right: 15px;

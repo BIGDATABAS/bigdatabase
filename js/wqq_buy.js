@@ -71,6 +71,49 @@ window.onload=function(){
 	}
 
 
+	// 删除按钮
+	let table=document.querySelector("tbody");
+
+	table.onclick=function(e){
+		let element=e.target;
+		if(element.nodeName=="BUTTON" && element.className=="del"){
+			let trs=element.parentNode.parentNode;
+			table.removeChild(trs);
+		}
+	}
+
+	//搜索记录
+	let search=document.querySelector(".wqq_search");
+	let label=document.querySelectorAll(".wqq_word1")[0];
+	console.log(search,label);
+
+	search.onclick=function(){
+		let types=label.innerHTML;
+		if(!types){
+			alert("请输入正确的信息");
+		}else{
+			let list=`<tr>
+                <td class="wqq_one">${types}</td>
+                <td class="wqq_two">2018-7-21</td>
+                <td class="wqq_three">2018-7-21</td>
+                <td class="wqq_four">2018-7-21</td>
+                <td class="wqq_five">6</td>
+                <td class="wqq_six">小</td>
+                <td class="wqq_seven">699</td>
+                <td class="wqq_eight">教材</td>
+                <td class="wqq_nine">XX公司</td>
+                <td class="wqq_ten">1234567890</td>
+                <td class="wqq_eleven">江泽民</td>
+                <td class="wqq_twelve">已收</td>
+                <td class="wqq_thirteen">
+                    <button class="del">删除</button>
+                </td>
+            </tr>`;
+            table.innerHTML+=list;
+		}
+		
+	}
+
 
 
 }
