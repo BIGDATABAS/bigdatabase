@@ -115,7 +115,7 @@ main .wpc_nav ul{
 }
 main .wpc_nav ul .gq_list{
     display: block;
-    width: 32.7%;
+    width: 373px;
     height: 213px;
     background: #fff;
     margin-bottom: 10px;
@@ -142,6 +142,10 @@ main .wpc_nav .gq_list h4 span{
     height: 12px;
     font-size: 10px;
     background: linear-gradient(to top,#30c2fb,#6787ff);
+    background-image: -webkit-linear-gradient(to top,#30c2fb,#6787ff);
+    background-image: -moz-linear-gradient(to top,#30c2fb,#6787ff);
+    background-image: -ms-linear-gradient(to top,#30c2fb,#6787ff);
+    background-image: -o-linear-gradient(to top,#30c2fb,#6787ff);
     line-height: 20px;
     display: block;
 }
